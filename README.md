@@ -27,9 +27,19 @@ The main objective is to explore how Edge Computing can support faster and more 
 
 ## Architecture
 
-The proposed concept consists of:
+## System Architecture
 
-Data Source → Edge Device → Processing / ML Model → Activity Recognition → Cloud
+The proposed Edge-Oriented Human Activity Recognition architecture follows a distributed processing approach in which activity-related data is processed closer to the source to reduce latency and unnecessary data transfer to the cloud.
+
+```mermaid
+flowchart LR
+    A[Data Sources<br/>Sensors / IoT Devices] --> B[Edge Device]
+    B --> C[Data Preprocessing]
+    C --> D[ML Model]
+    D --> E[Human Activity Recognition]
+    E --> F[Real-Time Response]
+    E --> G[Cloud Platform]
+    G --> H[Storage & Analytics]
 
 ## Applications
 

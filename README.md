@@ -31,6 +31,8 @@ The main objective is to explore how Edge Computing can support faster and more 
 
 The proposed Edge-Oriented Human Activity Recognition architecture follows a distributed processing approach in which activity-related data is processed closer to the source to reduce latency and unnecessary data transfer to the cloud.
 
+![Edge-Oriented Human Activity Recognition Architecture](docs/architecture-diagram.png)
+
 ```mermaid
 flowchart LR
     A[Data Sources<br/>Sensors / IoT Devices] --> B[Edge Device]
